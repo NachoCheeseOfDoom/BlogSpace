@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: blanchedalmond;
+  padding: 5px 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav > h3 {
+  padding: 0;
+  margin: 0;
+}
+
+#blog-list {
+  padding: 10px;
+}
+form {
+  background-color: rgb(216, 234, 250);
+  border-radius: 5px;
+  padding: 50px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+
+  width: 70%;
+  margin: auto;
+}
+
+form > input,
+textarea,
+button {
+  border: 1px solid rgb(247, 227, 203);
+  border-radius: 5px;
+}
+
+input#form-title,
+textarea#form-body {
+  margin-bottom: 10px;
+}
+
+input {
+  outline: none;
+  padding: 3px 5px;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  padding: 0px 5px;
+}
+
+form > button {
+  cursor: pointer;
+  width: 50%;
+  margin: 15px auto 0px;
+  padding: 7px;
+  font-weight: bold;
+  background-color: bisque;
+}
